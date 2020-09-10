@@ -32,7 +32,7 @@ function maxSubArraySum(arr, num){
 
 
 
-//Better Approach --> O(n) time complexity
+//Sliding Window Approach --> O(n) time complexity
 function maxSubArraySum(arr, num){
     let maxSum = 0;
     let tempSum = 0;
