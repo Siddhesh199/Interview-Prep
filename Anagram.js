@@ -30,7 +30,7 @@ function anagram(str1, str2){
     }
     
     for(let key in counter1){
-        if(!(key in  counter2)){
+        if(!(key in counter2)){
             return false;
         }
         
