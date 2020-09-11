@@ -9,6 +9,10 @@
 //minSubArrayLen([1, 4, 16, 22, 5, 7, 8, 9, 10], 55) --> 5
 
 
+//Time complexity - O(n)
+//Space complexity - O(1)
+
+
 function minSubArrayLen(nums, sum) {
     let total = 0;
     let start = 0;
