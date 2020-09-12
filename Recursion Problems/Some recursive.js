@@ -19,5 +19,3 @@ function someRecursive(array, callback) {
 
 
 
-
-
