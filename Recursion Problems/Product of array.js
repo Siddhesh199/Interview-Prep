@@ -10,4 +10,3 @@ function productOfArray(arr) {
     return arr[0] * productOfArray(arr.slice(1));
 }
 
-

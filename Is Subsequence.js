@@ -37,4 +37,3 @@ function isSubsequence(str1, str2) {
     return isSubsequence(str1, str2.slice(1))
 }
 
-
