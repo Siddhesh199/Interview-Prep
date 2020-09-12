@@ -28,4 +28,3 @@ function averagePair(arr, num){
 }
 
 
-

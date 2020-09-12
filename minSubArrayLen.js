@@ -43,4 +43,3 @@ function minSubArrayLen(nums, sum) {
 }
   
 
-
