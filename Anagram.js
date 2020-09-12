@@ -70,3 +70,5 @@ function anagram(str1, str2) {
   
     return true;
 }
+
+
