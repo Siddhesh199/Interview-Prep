@@ -4,6 +4,8 @@
 //bubbleSort([22, 4, 1, 3, 9, 8, 21]) --> [1, 3, 4, 8, 9, 21, 22]
 
 
+//Time complexity - O(n^2)
+//Space complexity - O(1)
 function bubbleSort(arr){
     
     const swap = (arr, idx1, idx2) => {

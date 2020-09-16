@@ -4,6 +4,8 @@
 //insertionSort([22, 4, 1, 3, 9, 8, 21]) --> [1, 3, 4, 8, 9, 21, 22]
 
 
+//Time complexity - O(n^2)
+//Space complexity - O(1)
 function insertionSort(arr){
     for(let i = 1; i < arr.length; i++){
         let currentVal = arr[i];

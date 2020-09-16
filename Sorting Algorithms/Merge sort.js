@@ -4,6 +4,8 @@
 //mergeSort([22, 4, 1, 3, 9, 8, 21]) --> [1, 3, 4, 8, 9, 21, 22]
 
 
+//Time complexity - O(n log n)
+//Space complexity - O(n)
 function mergeSort(arr){
     if(arr.length <= 1) return arr;
     let mid = Math.floor(arr.length / 2);
