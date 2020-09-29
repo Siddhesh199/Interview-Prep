@@ -100,6 +100,18 @@ class BinarySearchTree{
         traverse(this.root);
         return data;
     }
+
+    //Depth First Search InOrder
+    DFSInOrder(){
+        let data = [];
+        function traverse(node){
+            if(node.left) traverse(node.left);
+            data.push(node.val);
+            if(node.right) traverse(node.right);
+        }
+        traverse(this.root);
+        return data;
+    }
 }
 
 
