@@ -88,6 +88,18 @@ class BinarySearchTree{
         traverse(this.root);
         return data;
     }
+
+    //Depth First Search PostOrder
+    DFSPostOrder(){
+        let data = [];
+        function traverse(node){
+            if(node.left) traverse(node.left);
+            if(node.right) traverse(node.right);
+            data.push(node.val);
+        }
+        traverse(this.root);
+        return data;
+    }
 }
 
 
