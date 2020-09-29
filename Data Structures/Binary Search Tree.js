@@ -61,6 +61,7 @@ class BinarySearchTree{
 
     //Tree Traversal Algorithms
 
+    //Breadth First Search
     breadthFirstSearch(){
         let node = this.root;
         let queue = [];
@@ -73,6 +74,18 @@ class BinarySearchTree{
             if(node.left) queue.push(node.left);
             if(node.right) queue.push(node.right);
         }
+        return data;
+    }
+
+    //Depth First Search PreOrder
+    DFSPreOrder(){
+        let data = [];
+        function traverse(node){
+            data.push(node.val);
+            if(node.left) traverse(node.left);
+            if(node.right) traverse(node.right);
+        }
+        traverse(this.root);
         return data;
     }
 }
