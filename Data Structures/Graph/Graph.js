@@ -101,7 +101,6 @@ class Graph{
                 }
             });
         }
-        
         return result;
     }
 }
